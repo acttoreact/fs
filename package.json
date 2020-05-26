@@ -1,6 +1,6 @@
 {
   "name": "@a2r/fs",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A2R file system library",
   "main": "./index.js",
   "types": "./index.d.ts",
