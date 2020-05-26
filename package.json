@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "NODE_ENV=development ts-node-dev --debug --respawn --transpileOnly ./index.ts",
-    "upload": "npm run build;cp .snyk ./bin/.snyk;cd dist;npm i;npm publish --access=public;",
+    "upload": "npm run build;cp .snyk ./bin/.snyk;cd bin;npm i;npm publish --access=public;",
     "start": "node ./bin/index.js",
     "lint": "npx eslint --config ./.eslintrc ./**/*.ts",
     "test": "jest",
