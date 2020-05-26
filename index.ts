@@ -1,11 +1,5 @@
-/**
- * Start of the project
- */
-const start = (): void => {
-  // eslint-disable-next-line no-console
-  console.log('Hello A2R!');
-};
+import packageJSON from './package.json';
 
-start();
+export const {version} = packageJSON;
 
-export default start;
+export * from './tools/fs';

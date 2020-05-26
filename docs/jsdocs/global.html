@@ -1,0 +1,2586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Global</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+            
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    API Documentation
+                </a>
+                <div class="dropdown is-hoverable is-right">
+                    <a class="dropdown-trigger link">
+                        Tutorials
+                        <i class="fas fa-chevron-down fa-xs"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                        
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Global</h3><ul><li><a href="global.html#copyContents">copyContents</a></li><li><a href="global.html#copyFile">copyFile</a></li><li><a href="global.html#emptyFolder">emptyFolder</a></li><li><a href="global.html#ensureDir">ensureDir</a></li><li><a href="global.html#exists">exists</a></li><li><a href="global.html#getFilesRecursively">getFilesRecursively</a></li><li><a href="global.html#mkDir">mkDir</a></li><li><a href="global.html#readDir">readDir</a></li><li><a href="global.html#readFile">readFile</a></li><li><a href="global.html#rimraf">rimraf</a></li><li><a href="global.html#rmDir">rmDir</a></li><li><a href="global.html#unlink">unlink</a></li><li><a href="global.html#writeFile">writeFile</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p>Title</p>
+                    <h1>Global</h1>
+                </header>
+                
+
+
+
+
+<section>
+
+<header>
+    
+        <h2></h2>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+
+        
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <div class='vertical-section'>
+            <h1>Members</h1>
+            <div class="members">
+            
+                <div class="member">
+
+<h4 class="name" id="copyContents">
+    <a class="href-link" href="#copyContents">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        copyContents
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Copies contents recursively from <code>fromPath</code> to <code>destPath</code></p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line107">line 107</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="copyFile">
+    <a class="href-link" href="#copyFile">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        copyFile
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Copies <code>src</code> to <code>dest</code>. By default, dest is overwritten if it already exists. No arguments other than a possible exception are given to the callback function. Node.js makes no guarantees about the atomicity of the copy operation. If an error occurs after the destination file has been opened for writing, Node.js will attempt to remove the destination.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line33">line 33</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="copyFile">
+    <a class="href-link" href="#copyFile">#</a>
+    
+    <span class="code-name">
+        copyFile
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Copies <code>src</code> to <code>dest</code>. By default, dest is overwritten if it already exists. No arguments other than a possible exception are given to the callback function. Node.js makes no guarantees about the atomicity of the copy operation. If an error occurs after the destination file has been opened for writing, Node.js will attempt to remove the destination.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line38">line 38</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="emptyFolder">
+    <a class="href-link" href="#emptyFolder">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        emptyFolder
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Empties given folder by removing it and creating it again</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line54">line 54</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="ensureDir">
+    <a class="href-link" href="#ensureDir">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        ensureDir
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Ensures that given dir path exists</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line66">line 66</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="exists">
+    <a class="href-link" href="#exists">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        exists
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Test whether or not the given path exists by checking with the file system.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line42">line 42</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="getFilesRecursively">
+    <a class="href-link" href="#getFilesRecursively">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        getFilesRecursively
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Gets files recursively</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line83">line 83</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="mkDir">
+    <a class="href-link" href="#mkDir">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        mkDir
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Create a directory</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line9">line 9</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="mkDir">
+    <a class="href-link" href="#mkDir">#</a>
+    
+    <span class="code-name">
+        mkDir
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Create a directory</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line14">line 14</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="readDir">
+    <a class="href-link" href="#readDir">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        readDir
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Read a directory.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line25">line 25</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="readDir">
+    <a class="href-link" href="#readDir">#</a>
+    
+    <span class="code-name">
+        readDir
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Read a directory.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line30">line 30</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="readFile">
+    <a class="href-link" href="#readFile">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        readFile
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Reads the entire contents of a file.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line29">line 29</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="readFile">
+    <a class="href-link" href="#readFile">#</a>
+    
+    <span class="code-name">
+        readFile
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Reads the entire contents of a file.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line34">line 34</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="rimraf">
+    <a class="href-link" href="#rimraf">#</a>
+    
+    <span class="code-name">
+        rimraf
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>The <a href="http://en.wikipedia.org/wiki/Rm_(Unix)">UNIX command</a> <code>rm -rf</code> for node</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line22">line 22</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="rimraf">
+    <a class="href-link" href="#rimraf">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        rimraf
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>The <a href="http://en.wikipedia.org/wiki/Rm_(Unix)">UNIX command</a> <code>rm -rf</code> for node</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line17">line 17</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="rmDir">
+    <a class="href-link" href="#rmDir">#</a>
+    
+    <span class="code-name">
+        rmDir
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Delete a directory.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line18">line 18</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="rmDir">
+    <a class="href-link" href="#rmDir">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        rmDir
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Delete a directory.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line13">line 13</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="unlink">
+    <a class="href-link" href="#unlink">#</a>
+    
+    <span class="code-name">
+        unlink
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Deletes a name and possibly the file it refers to.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line42">line 42</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="unlink">
+    <a class="href-link" href="#unlink">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        unlink
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Deletes a name and possibly the file it refers to.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line37">line 37</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="writeFile">
+    <a class="href-link" href="#writeFile">#</a>
+    
+    <span class="code-name">
+        writeFile
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Writes data to a file, replacing the file if it already exists.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line26">line 26</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+<h4 class="name" id="writeFile">
+    <a class="href-link" href="#writeFile">#</a>
+    
+        
+            <span class='tag'>constant</span>
+        
+    
+    <span class="code-name">
+        writeFile
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Writes data to a file, replacing the file if it already exists.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="tools_fs.ts.html" class="button">View Source</a>
+            <span>
+                <a href="tools_fs.ts.html">tools/fs.ts</a>, <a href="tools_fs.ts.html#line21">line 21</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+            </div>
+        </div>
+    
+
+    
+        <div class='vertical-section'>
+            <h1>Methods</h1>
+            <div class="members">
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id="copyContents">
+        <a class="href-link" href="#copyContents">#</a>
+        
+        <span class="code-name">
+            
+                copyContents<span class="signature">(fromPath, destPath, relativePath<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        <p>Copies contents recursively from <code>fromPath</code> to <code>destPath</code></p>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+            <th>Attributes</th>
+            
+
+            
+            <th>Default</th>
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>fromPath</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">string</span>
+
+
+  
+  </td>
+
+  
+      <td class="attributes">
+      
+
+      
+
+      
+      </td>
+  
+
+  
+      <td class="default">
+      
+      </td>
+  
+
+  <td class="description last"><p>Source path</p></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>destPath</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">string</span>
+
+
+  
+  </td>
+
+  
+      <td class="attributes">
+      
+
+      
+
+      
+      </td>
+  
+
+  
+      <td class="default">
+      
+      </td>
+  
+
+  <td class="description last"><p>Destination path</p></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>relativePath</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">string</span>
+
+
+  
+  </td>
+
+  
+      <td class="attributes">
+      
+          &lt;optional><br>
+      
+
+      
+
+      
+      </td>
+  
+
+  
+      <td class="default">
+      
+          ''
+      
+      </td>
+  
+
+  <td class="description last"><p>Relative path</p></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line112">line 112</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id="emptyFolder">
+        <a class="href-link" href="#emptyFolder">#</a>
+        
+        <span class="code-name">
+            
+                emptyFolder<span class="signature">(folderPath)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        <p>Empties given folder by removing it and creating it again</p>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>folderPath</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">string</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"><p>Folder path to be emptied</p></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line59">line 59</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id="ensureDir">
+        <a class="href-link" href="#ensureDir">#</a>
+        
+        <span class="code-name">
+            
+                ensureDir<span class="signature">(folderPath, options)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        <p>Ensures that given dir path exists</p>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>folderPath</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">string</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"><p>Path to ensure</p></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>options</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">fs.MakeDirectoryOptions</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"><p>Options</p></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line71">line 71</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id="exists">
+        <a class="href-link" href="#exists">#</a>
+        
+        <span class="code-name">
+            
+                exists<span class="signature">(pathToCheck)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        <p>Test whether or not the given path exists by checking with the file system.</p>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>pathToCheck</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">fs.PathLike</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"><p>A path to a file or directory. If a URL is provided, it must use the <code>file:</code> protocol. URL support is experimental.</p></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line47">line 47</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id="getFilesRecursively">
+        <a class="href-link" href="#getFilesRecursively">#</a>
+        
+        <span class="code-name">
+            
+                getFilesRecursively<span class="signature">(folderPath, extName)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        <p>Gets files recursively</p>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>folderPath</code></td>
+  
+
+  <td class="type">
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"><p>Path to get files from</p></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>extName</code></td>
+  
+
+  <td class="type">
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"><p>Extension names to filter files (including <code>.</code>)</p></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="bin_tools_fs.js.html" class="button">View Source</a>
+            <span>
+                <a href="bin_tools_fs.js.html">bin/tools/fs.js</a>, <a href="bin_tools_fs.js.html#line88">line 88</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+            
+            </div>
+        </div>
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.4</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+</body>
+</html>
