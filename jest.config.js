@@ -9,7 +9,7 @@ module.exports = {
   collectCoverageFrom: [
     "**/*.{ts,tsx}",
     "!**/node_modules/**",
-    "!**/bin/**",
+    "!**/dist/**",
     "!**/test/mocks/**"
   ],
   coverageReporters: ['text', 'lcov', 'json', 'html'],
