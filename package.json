@@ -1,6 +1,6 @@
 {
   "name": "@a2r/fs",
-  "version": "1.1.0",
+  "version": "1.1.4",
   "description": "A2R file system library",
   "main": "./index.js",
   "types": "./index.d.ts",
@@ -10,11 +10,11 @@
   "scripts": {
     "build": "tsc",
     "dev": "NODE_ENV=development ts-node-dev --debug --respawn --transpileOnly ./index.ts",
-    "upload": "npm run build;cp .snyk ./bin/.snyk;cd bin;npm i;npm publish --access=public;",
-    "start": "node ./bin/index.js",
+    "upload": "npm run build;cp .snyk ./dist/.snyk;cd dist;npm i;npm publish --access=public;",
+    "start": "node ./dist/index.js",
     "lint": "npx eslint --config ./.eslintrc ./**/*.ts",
     "test": "jest",
-    "test-clear": "rm -rf coverage;rm -rf bin",
+    "test-clear": "rm -rf coverage;rm -rf dist",
     "test-dev": "NODE_ENV=development npx jest --watch",
     "test-coverage": "jest --coverage",
     "test-coverage-dev": "NODE_ENV=development jest --coverage --watchAll",
