@@ -132,6 +132,7 @@ export const getFilesRecursively = async (
  * Copies contents recursively from `fromPath` to `destPath`
  * @param {string} fromPath Source path
  * @param {string} destPath Destination path
+ * @param {boolean} hard Hard mode (overwrites existing files)
  * @param {string} [relativePath=''] Relative path
  */
 export const copyContents = async (
