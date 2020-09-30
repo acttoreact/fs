@@ -44,6 +44,11 @@ export const copyFile = util.promisify(fs.copyFile);
 export const unlink = util.promisify(fs.unlink);
 
 /**
+ * Change the name or location of a file or directory
+ */
+export const rename = util.promisify(fs.rename);
+
+/**
  * Test whether or not the given path exists by checking with the file system.
  * @param {fs.PathLike} pathToCheck A path to a file or directory. If a URL is provided, it must use the `file:` protocol. URL support is experimental.
  */
