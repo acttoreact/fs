@@ -16,7 +16,6 @@
     "encoding": "utf8",
     "destination": "docs/jsdocs/",
     "readme": "./README.md",
-    "template": "node_modules/better-docs",
     "recurse": true,
     "verbose": true
   }

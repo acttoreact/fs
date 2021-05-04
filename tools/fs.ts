@@ -84,7 +84,7 @@ export const ensureDir = async (
   options?: fs.MakeDirectoryOptions,
   recursive = true,
 ): Promise<void> => {
-  await new Promise((resolve, reject): void => {
+  await new Promise<void>((resolve, reject) => {
     fs.mkdir(
       folderPath,
       { ...(options || {}), recursive },
