@@ -1,6 +1,6 @@
-import fs from 'fs';
-import util from 'util';
-import path from 'path';
+import * as fs from 'fs';
+import * as util from 'util';
+import * as path from 'path';
 import originalRimraf from 'rimraf';
 
 /**
@@ -84,7 +84,7 @@ export const ensureDir = async (
   options?: fs.MakeDirectoryOptions,
   recursive = true,
 ): Promise<void> => {
-  await new Promise((resolve, reject): void => {
+  await new Promise<void>((resolve, reject) => {
     fs.mkdir(
       folderPath,
       { ...(options || {}), recursive },
