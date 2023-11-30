@@ -37,7 +37,7 @@
   "license": "MIT",
   "homepage": "https://a2r.com/",
   "dependencies": {
-    "rimraf": "^3.0.2"
+    "rimraf": "^4.0.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.23",
